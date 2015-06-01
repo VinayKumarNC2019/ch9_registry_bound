@@ -1,2 +1,3 @@
 FROM busybox:latest
-RUN echo Push this image into your registry.
+CMD echo Push this image into your registry.
+LABEL dia_excercise=ch9_registry_bound
